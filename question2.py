@@ -48,25 +48,22 @@ def get_contact_number(url):
     contact_number = contact_number.replace('tel:', '')
     return contact_number
 
-def main():
-    # Get the URL from the user.
-    url = input('Enter the URL of the website: ')
 
-    # Get the social links.
-    social_links = get_social_links(url)
-    # Get the email address.
-    email_address = get_email(url)
-    # Get the contact number.
-    contact_number = get_contact_number(url)
+# Get the URL from the user.
+url = input('Enter the URL of the website: ')
 
-    # Print the results.
-    print('Social links:')
-    for social_link in social_links:
-        print(social_link)
-    print('Email:')
-    print(email_address)
-    print('Contact:')
-    print(contact_number)
+# Get the social links.
+social_links = get_social_links(url)
+# Get the email address.
+email_address = get_email(url)
+# Get the contact number.
+contact_number = get_contact_number(url)
 
-if __name__ == '__main__':
-    main()
+# Print the results.
+print('Social links:')
+for social_link in social_links:
+    print(social_link)
+print('Email:')
+print(email_address)
+print('Contact:')
+print(contact_number)
