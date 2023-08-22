@@ -1,0 +1,34 @@
+1. Reverse-i-search (also known as incremental reverse search) is a feature of the Bash and Zsh shells that allows you to search for a string in your command history. It is called "reverse" because it searches backwards through your history, starting with the most recent command.
+
+To use reverse-i-search, press Ctrl+R. This will open a prompt where you can type the string you want to search for. As you type, the shell will show you the most recent command that matches your search string. If the command you want is not the first one that matches, you can press Ctrl+R again to see the next matching command. Once you have found the command you want, press Enter to execute it.
+$ ls
+file1 file2 file3
+$ cat file1
+This is the content of file1.
+$ ctrl+R
+(reverse-i-search)'cat': cat file1
+$ enter
+This is the content of file1.
+
+
+2. There are two ways to list out the hidden directories using the Linux command line tool:
+
+a. Use the ls command with the -a option: The -a option tells the ls command to list all files and directories, including hidden ones. For example, to list all hidden directories in the current directory, you would run the following command:
+
+$ ls -a
+
+This will list all files and directories in the current directory, including those that start with a dot (.).
+
+b. Use the find command: The find command can be used to find files and directories based on a variety of criteria. To list all hidden directories, you would use the following command:
+
+$ find . -type d -name '.*'
+
+The . in the first argument tells the find command to start searching in the current directory. The -type d option tells the find command to only list directories. The -name '.*' option tells the find command to only list directories whose names start with a dot.
+For example, the following command would list all hidden directories in the /etc directory:
+
+$ find /etc -type d -name '.*'
+
+3. I am still under development, but I am getting more comfortable with using Linux-based operating systems like Ubuntu. I have learned the basics of the Linux command line, and I can now use some common commands. I am also familiar with some of the most popular Linux distributions, such as Ubuntu, Debian, etc.
+I am still learning, and I am not as comfortable with Linux as I am with Windows or macOS. However, I am confident that I will continue to improve my skills, and I will be able to use Linux-based operating systems more effectively in the future.
+
+4. No, I have not used servers to host any web applications in the past. I am still under development, and I am not yet at the stage where I can set up and manage servers. However, I am interested in learning more about this topic, and I hope to be able to do so in the future.
