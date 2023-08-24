@@ -1,0 +1,39 @@
+1. Technology Name: jQuery
+Regex Pattern: '<script [^>]*src=['"](?:https?:\/\/)?code\.jquery\.com\/jquery(?:-latest\.min)?\.js['"][^>]*><\/script>'
+Sample Website: https://www.tripadvisor.com/
+
+2. Technology Name: React.js
+Regex Pattern: 'react(?:\s*-\s*)?(\d+\.\d+\.\d+)?(?:\.min)?\.js'
+Sample Website: https://www.airbnb.com/
+
+3. Technology Name: WooCommerce
+Regex Pattern: 'woocommerce'
+Sample Website: https://www.farmdrop.com/
+
+4. Technology Name: Bootstrap
+Regex Pattern: 'bootstrap(?:\.\d+(\.\d+)?)?\.min\.js'
+Sample Website: https://www.lyft.com/
+
+5. Technology Name: Shopify
+Regex Pattern: 'shopify'
+Sample Website: https://www.kyliecosmetics.com/
+
+6. Technology Name: Next.js
+Regex Pattern: 'next(?:-[\d.]+)?\.js'
+Sample Website: https://www.hulu.com/
+
+7. Technology Name: Materialize CSS
+Regex Pattern: 'materialize(?:\.\d+(\.\d+)?)?\.min\.js'
+Sample Website: https://www.spotify.com/
+
+8. Technology Name: PHP
+Regex Pattern: 'php'
+Sample Website: Any website using server-side scripting with PHP
+
+9. Technology Name: Python
+Regex Pattern: 'python'
+Sample Website: Any website using server-side scripting with Python
+
+10. Technology Name: Google Maps
+Regex Pattern: 'maps\.googleapis\.com\/maps'
+Sample Website: Embedding Google Maps on any website
